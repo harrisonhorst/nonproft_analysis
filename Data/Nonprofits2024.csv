@@ -1,0 +1,52 @@
+"","State","Count","Assets","GEOID","variable","estimate"
+"1","Alabama",24709,56703976956,"01","totalpopulation",5086768
+"2","Alaska",5613,20185198385,"02","totalpopulation",735706
+"3","Arizona",28753,89665022721,"04","totalpopulation",7378838
+"4","Arkansas",15453,34997196949,"05","totalpopulation",3049391
+"5","California",190005,993545380411,"06","totalpopulation",39287377
+"6","Colorado",34231,116856249589,"08","totalpopulation",5862189
+"7","Connecticut",22609,149047518286,"09","totalpopulation",3624508
+"8","Delaware",8898,26388958504,"10","totalpopulation",1021191
+"9","District of Columbia",13483,139100078623,"11","totalpopulation",681294
+"10","Florida",105381,337284989884,"12","totalpopulation",22416077
+"11","Georgia",57825,173989975372,"13","totalpopulation",10940407
+"12","Hawaii",8926,36243295149,"15","totalpopulation",1445235
+"13","Idaho",9933,17578002208,"16","totalpopulation",1934262
+"14","Illinois",73083,387104762198,"17","totalpopulation",12694798
+"15","Indiana",42136,172056515098,"18","totalpopulation",6851073
+"16","Iowa",29723,63594437057,"19","totalpopulation",3210507
+"17","Kansas",17847,74147446590,"20","totalpopulation",2947197
+"18","Kentucky",21504,68399093402,"21","totalpopulation",4534824
+"19","Louisiana",22634,57520560554,"22","totalpopulation",4611961
+"20","Maine",10069,30623266117,"23","totalpopulation",1387817
+"21","Maryland",40489,179071707131,"24","totalpopulation",6206011
+"22","Massachusetts",41673,528862954729,"25","totalpopulation",7044056
+"23","Michigan",53986,303993546733,"26","totalpopulation",10077761
+"24","Minnesota",38382,298325654104,"27","totalpopulation",5739445
+"25","Mississippi",15055,25511250906,"28","totalpopulation",2946779
+"26","Missouri",39995,182775728839,"29","totalpopulation",6191814
+"27","Montana",11676,21437953459,"30","totalpopulation",1116875
+"28","Nebraska",14389,94527574102,"31","totalpopulation",1978707
+"29","Nevada",14953,23653047640,"32","totalpopulation",3184612
+"30","New Hampshire",8989,40955830335,"33","totalpopulation",1394868
+"31","New Jersey",50367,166564595107,"34","totalpopulation",9343809
+"32","New Mexico",10794,22060770283,"35","totalpopulation",2120246
+"33","New York",117854,646917088164,"36","totalpopulation",19852366
+"34","North Carolina",55243,234917364945,"37","totalpopulation",10730404
+"35","North Dakota",6324,21275172836,"38","totalpopulation",784841
+"36","Ohio",73967,309114412601,"39","totalpopulation",11810293
+"37","Oklahoma",21145,49083663465,"40","totalpopulation",4028634
+"38","Oregon",25829,87473727274,"41","totalpopulation",4254293
+"39","Pennsylvania",77743,458241349122,"42","totalpopulation",13018639
+"40","Rhode Island",6360,38932317189,"44","totalpopulation",1101801
+"41","South Carolina",30142,51705623182,"45","totalpopulation",5296225
+"42","South Dakota",7006,25641198236,"46","totalpopulation",907428
+"43","Tennessee",37755,124141825310,"47","totalpopulation",7066383
+"44","Texas",140622,441394485008,"48","totalpopulation",30188424
+"45","Utah",11639,43867368956,"49","totalpopulation",3392331
+"46","Vermont",6395,15996358464,"50","totalpopulation",647106
+"47","Virginia",51016,239986081951,"51","totalpopulation",8705170
+"48","Washington",40609,182432374465,"53","totalpopulation",7816116
+"49","West Virginia",11100,23803303002,"54","totalpopulation",1778373
+"50","Wisconsin",38127,113269868965,"55","totalpopulation",5914872
+"51","Wyoming",5471,7926166385,"56","totalpopulation",582397
