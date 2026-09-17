@@ -1,0 +1,15 @@
+---
+title: "Exploring the Iris Dataset"
+format: html
+---
+
+A line of text describing variation in Sepal length.
+
+```{r}
+library(ggplot2)
+data = iris
+ggplot(data,aes(x=Species,y=Sepal.Length,fill=Species)) + 
+    geom_boxplot() + 
+    theme_minimal()
+
+```
