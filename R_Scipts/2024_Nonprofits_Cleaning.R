@@ -72,6 +72,15 @@ Nonprofits2024_ByState <- Nonprofits2024 %>%
   filter(!is.na(State)) %>%
   select(-moe)
 
+## ADD FIPS code and calculations
+Nonprofits2024_Export <- Nonprofits2024_ByState %>%
+  mutate(
+    fips = str_pad(GEOID, width = 2, pad = "0"),
+    NPDensity = (Count / estimate) * 1000,
+    AssetDensity = (Assets / estimate)
+  ) %>%
+  filter(State != "District of Columbia")
+
 
 ## Export the table to the data folder.
-write.csv(Nonprofits2024_ByState, "Data/Nonprofits2024.csv")
+write.csv(Nonprofits2024_Export, "Data/Nonprofits2024.csv")
