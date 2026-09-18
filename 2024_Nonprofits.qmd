@@ -1,6 +1,8 @@
 ---
 title: "Nonprofit Landscape: Initial Explorations"
-format: html
+format: 
+    html:
+        code-fold: true
 ---
 
 A line of text describing initial setup and context for this work.
@@ -10,14 +12,14 @@ A line of text describing initial setup and context for this work.
 library(tidyverse)
 library(ggplot2)
 library(usmap)
-data = read.csv("Data/Nonprofits2024.csv")
+data <- read.csv("Data/Nonprofits2024.csv")
 ```
 
 Some text describing overall nonprofit patterns in 2024.
 
 ```{r}
 plot_usmap(
-  data = Nonprofits2024_ByState,
+  data = data,
   values = "Count",
   color = "white",
   linewidth = 0.2
@@ -41,7 +43,7 @@ Some text describing nonprofit density.
 ```{r}
 ## Map nonprofit density per state
 plot_usmap(
-  data = Nonprofits2024_ByState,
+  data = data,
   value = "NPDensity",
   color = "white",
   linewidth = 0.2
@@ -53,7 +55,6 @@ plot_usmap(
   ) +
   theme(legend.position = "top") +
   labs(fill = "Nonprofits per 1,000 people")
-
 ```
 
 Some text describing nonprofit asset density.
@@ -61,7 +62,7 @@ Some text describing nonprofit asset density.
 ```{r}
 ## Map nonprofit asset density per state
 plot_usmap(
-  data = Nonprofits2024_ByState,
+  data = data,
   value = "AssetDensity",
   color = "white",
   linewidth = 0.2
@@ -78,7 +79,6 @@ plot_usmap(
       barwidth = unit(5, 'cm')
     )
   )
-
 ```
 
 Next steps: Further cleaning of the dataset, identifying other relevant metrics, and refining maps.
